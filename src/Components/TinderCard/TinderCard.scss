@@ -1,0 +1,27 @@
+.tinderCard {
+  z-index: 1;
+  position: relative;
+  .tindercard__card {
+    width: 400px;
+    height: 400px;
+    @media all and (max-width: 550px) {
+      width: 300px;
+      height: 350px;
+    }
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 0 18px 53px 0 rgba($color: #000000, $alpha: 0.3);
+    h3 {
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+      color: white;
+    }
+  }
+}

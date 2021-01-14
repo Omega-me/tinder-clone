@@ -1,0 +1,86 @@
+.message .message__p {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 50px;
+  color: grey;
+  font-weight: 500;
+}
+
+.message .message__container .message__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10px 20px;
+}
+
+.message .message__container .message__message p {
+  background-color: #acacac;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.message .message__container .message__me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10px 20px;
+}
+
+.message .message__container .message__me p {
+  background-color: #13a7d4;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 0.8rem;
+}
+
+.message .message__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid lightgray;
+  padding: 5px;
+}
+
+.message .message__send input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.message .message__send input:focus {
+  outline: none;
+}
+
+.message .message__send button {
+  text-transform: uppercase;
+  background: none;
+  color: #fc735d;
+  border: none;
+  border-top: lightgray;
+  outline: none;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=Message.css.map */
